@@ -1,0 +1,85 @@
+*{
+  font-family: 'Libre Baskerville', serif;}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: green;
+  color: white;
+  padding: 15px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.imagemym{
+  width: 200px;
+}
+
+nav img{  
+  align-items: flex-end;
+}
+
+.diretel{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-image: url(https://static7.depositphotos.com/1229718/785/i/450/depositphotos_7854628-stock-photo-bubbles-foaming-bath-suds.jpg);
+  background-position: 0% 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-basis: 270px;
+}
+
+
+#botton{
+  background-color: rgb(68, 194, 51);
+  color: white;
+  padding: 15px;
+  padding-left: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#direccion{
+  color: rgb(0, 0, 0);
+  text-decoration: double;
+  text-align: center; 
+  max-width: 100px;
+  max-height: 100px;
+  flex-basis: 250px;
+  font-size: 15px;
+  font-family: 'Libre Baskerville', serif;
+ 
+}
+
+#whatsapp{
+  text-decoration: none;
+  max-width: 100px;
+  max-height: 100px;
+
+}
+
+.diretel div{
+  flex-basis: 250px;
+}
+
+
+.imgflex{
+  display: flex;
+  justify-content: center;
+  width: 1080px;
+  height: 800;
+  position: relative;
+}
+
+#flexwewe{
+  display: flex;
+  background-image: url("disinfecting-in-home.jpg");
+ 
+}
+
+.imagerot{
+  width: 100%;
+  height: 100%;
+}
